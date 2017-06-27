@@ -3,9 +3,9 @@
 the purpose of this repo is to serve as a platform for me to learn how to use git and all of its functionalities. 
 How to create repo via cmd line: 
 
-'''
+`
 git init
-'''
+`
 
 ## Branches
 The purpose of master is to hold the original code and the purpose of branches is to let other users experiment and make changes to
@@ -15,26 +15,31 @@ How to create a new branch via cmd line:
 
 `git checkout branch_name`
 
-The same is used to switch between branches as well. For example if I were on a sub_branch and I wanted to switch to a master branch, I'd type out 
+The same is used to switch between branches as well:
 
 `git checkout master` 
+`git checkout branch_name`
 
-to swtich to the master branch. 
-If you added files to a sub_branch and you switched to the master branch, on your local repository, all of the changes you made, such as file creation, would also be reflected in the other branhces at that moment. To prevent that, you would have to push the new branch to the git repo with
+If you added files to a sub_branch and you switched to the master branch, on your local repository, all of the changes you made, such as file creation, would also be reflected in the other branhces at that moment. To prevent that, you would have to push the new branch to the git repo:
 
 `git push origin branch_name`
 
-where branch_name is just the name of the new branch you created and after that, all of the changes you made on branch_name will only appear when you view branch_name and if you switch to another branch, such as master, the changes will dissapear. 
-
-In order to view which branch you are on use
+Branch_name is just the name of the new branch you created and after that, all of the changes you made on branch_name will only appear when you are on branch_name. If you switch to another branch, such as master, the changes will dissapear. To view which branch you are on:
 
 `git branch` 
 
-to display which branch you are on.
+## Adding / Commiting
 
-## Commiting
-After you make a change in any branch you are on and you want to send it to the git repo, use
+Adding will stage your files for committing, your essentially telling git which files you want to get ready to push to your git repo, usually its the files you have editted: 
+`
+git add file_name
+git add *
+`
+You can use the wildcard * to add all files.
+
+Commiting is saving the changes you've made on whatever files you've editted / added. To stage your commit and to add a meaningful message behind what edits you've made:
 
 `git commit -m "message"`
 
-to stage your commit and tag along with it a meaningful message that will help describe what 
+
+
