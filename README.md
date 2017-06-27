@@ -25,3 +25,16 @@ If you added files to a sub_branch and you switched to the master branch, on you
 `git push origin branch_name`
 
 where branch_name is just the name of the new branch you created and after that, all of the changes you made on branch_name will only appear when you view branch_name and if you switch to another branch, such as master, the changes will dissapear. 
+
+In order to view which branch you are on use
+
+`git branch` 
+
+to display which branch you are on.
+
+## Commiting
+After you make a change in any branch you are on and you want to send it to the git repo, use
+
+`git commit -m "message"`
+
+to stage your commit and tag along with it a meaningful message that will help describe what 
