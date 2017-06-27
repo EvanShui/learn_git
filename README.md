@@ -3,7 +3,9 @@
 the purpose of this repo is to serve as a platform for me to learn how to use git and all of its functionalities. 
 How to create repo via cmd line: 
 
-'''git init whatever_name_you_want_to_use'''
+'''
+git init whatever_name_you_want_to_use
+'''
 
 ## Branches
 The purpose of master is to hold the original code and the purpose of branches is to let other users experiment and make changes to
