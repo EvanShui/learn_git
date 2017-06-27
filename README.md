@@ -31,15 +31,20 @@ Branch_name is just the name of the new branch you created and after that, all o
 ## Adding / Commiting
 
 Adding will stage your files for committing, your essentially telling git which files you want to get ready to push to your git repo, usually its the files you have editted: 
+
 `
 git add file_name
 git add *
 `
+
 You can use the wildcard * to add all files.
 
 Commiting is saving the changes you've made on whatever files you've editted / added. To stage your commit and to add a meaningful message behind what edits you've made:
 
 `git commit -m "message"`
 
+## Pull Request
+
+So what is a pull request? A pull request is a request to essentially combine the current branch with another branch. Usually in a group setting, you could create a pull reqeust and ask other's for feedback. 
 
 
