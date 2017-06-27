@@ -4,7 +4,7 @@ the purpose of this repo is to serve as a platform for me to learn how to use gi
 How to create repo via cmd line: 
 
 '''
-git init whatever_name_you_want_to_use
+git init
 '''
 
 ## Branches
