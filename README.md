@@ -58,7 +58,7 @@ After adding, commiting, or pulling files, the last step is to actually push the
 
 `git push origin branch_name` 
 
-
+And that pretty much sums up the most basic major functions of github. Of course there's a lot more than just this, however at my current state, this is all I need to know. 
 
  
 
