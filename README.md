@@ -45,6 +45,13 @@ Commiting is saving the changes you've made on whatever files you've editted / a
 
 ## Pull Request
 
-So what is a pull request? A pull request is a request to essentially combine the current branch with another branch. Usually in a group setting, you could create a pull reqeust and ask other's for feedback. 
+So what is a pull request? A pull request is a request to essentially combine the current branch with another branch. Usually in a group setting, you could create a pull reqeust and ask other's for feedback. To pull files from a different repo to the branch you want to pull to:
 
+`git checkout target_branch_you_want_to_pull_to`
+
+This is essentially commiting but in order to actually push: 
+
+`git pull origin target_branch_you_want_to_pull_to`
+
+ 
 
