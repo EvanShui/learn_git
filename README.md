@@ -19,7 +19,7 @@ The same is used to switch between branches as well:
 
 ```
 git checkout master
-git checkout branch_name
+git checkout -b branch_name
 ```
 If you added files to a sub_branch and you switched to the master branch, on your local repository, all of the changes you made, such as file creation, would also be reflected in the other branhces at that moment. To prevent that, you would have to push the new branch to the git repo:
 
